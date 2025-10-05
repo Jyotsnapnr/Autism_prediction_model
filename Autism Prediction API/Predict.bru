@@ -1,0 +1,44 @@
+meta {
+  name: Predict
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/predict
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "A1_Score": 1,
+    "A2_Score": 0,
+    "A3_Score": 1,
+    "A4_Score": 0,
+    "A5_Score": 1,
+    "A6_Score": 0,
+    "A7_Score": 1,
+    "A8_Score": 0,
+    "A9_Score": 1,
+    "A10_Score": 0,
+    "age": 25,
+    "gender": 1,
+    "ethnicity": "White-European",
+    "jaundice": 0,
+    "austim": 0,
+    "contry_of_res": "United States",
+    "used_app_before": 1,
+    "result": 1,
+    "relation": "Self"
+  }
+  
+}
+
+settings {
+  encodeUrl: true
+}
