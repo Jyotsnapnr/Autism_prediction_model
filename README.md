@@ -21,7 +21,7 @@ The system enables users to answer a few simple screening questions, after which
 
 Frontend:
 
-HTML, CSS, JavaScript (or React if applicable)
+HTML, CSS, JavaScript
 
 Responsive design for desktop & mobile
 
@@ -35,7 +35,7 @@ scikit-learn, pandas, numpy, joblib
 
 Machine Learning:
 
-Logistic Regression / Random Forest (or your specific model)
+Decision Tree, Random Forest and XGB classifier(Got best model as Random Forest)
 
 Trained on Kaggle Autism Screening Dataset
 
